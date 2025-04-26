@@ -19,7 +19,7 @@ if frame is None:
 CONFIDENCE_THRESHOLD = 0.5
 
 # Run inference on the image
-results = model.predict(frame, verbose=True)  # Verbose mode to check detection output
+results = ........ # Verbose mode to check detection output
 
 # Check if any objects were detected
 if not results or not results[0].boxes:
